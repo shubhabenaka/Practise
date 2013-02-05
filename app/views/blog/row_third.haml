@@ -1,4 +1,7 @@
-%h1= "Blogs"
+%h1= "Third Blog"
 
 %h2= @blogs[2].title
 %p= @blogs[2].description
+
+= link_to "/blogs/new" do
+    Create New

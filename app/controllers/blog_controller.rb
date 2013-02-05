@@ -1,5 +1,5 @@
 class BlogController < ActionController::Base
-  def abc
+  def row_first
   	@blogs = Blog.all
   end
 
@@ -9,5 +9,9 @@ class BlogController < ActionController::Base
   
   def row_third
   	@blogs = Blog.all
+  end
+
+  def new_row
+  
   end
 end

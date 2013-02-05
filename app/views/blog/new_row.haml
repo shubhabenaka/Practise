@@ -1,0 +1,10 @@
+%h1= "New Blog"
+
+%li
+  %label{:for => "name"} Name:
+  %input{:type => "text", :name => "name", :class => "text"}
+%li
+  %label{:for => "body"} Description:
+  %textarea{:name => "body"}
+%br
+  %input{:type => "submit", :value => "Submit", :class => "button"}

@@ -1,4 +1,5 @@
 Blogs::Application.routes.draw do
+  root :to => "say#hello"
   get "say/hello"
   get "say/filenames"
   get "say/goodbye"
